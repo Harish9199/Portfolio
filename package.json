@@ -9,7 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
     "clsx": "^2.1.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.35",
     "framer-motion": "^12.34.0",
     "lucide-react": "^0.564.0",
     "next": "14.2.35",
@@ -20,12 +25,5 @@
     "tailwind-merge": "^3.4.0",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
-  },
-  "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.35"
   }
 }

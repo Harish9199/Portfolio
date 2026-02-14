@@ -1,0 +1,16 @@
+{
+  "name": "Harish Shankar Thorath - Portfolio",
+  "short_name": "Harish Portfolio",
+  "description": "AI/ML Engineer & Full-Stack Developer Portfolio",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#030303",
+  "theme_color": "#00ff88",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    }
+  ]
+}

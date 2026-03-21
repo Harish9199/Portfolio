@@ -11,10 +11,10 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        void: "#030303",
-        terminal: "#0a0a0f",
-        surface: "#111118",
-        "surface-light": "#1a1a24",
+        void: "var(--void)",
+        terminal: "var(--terminal)",
+        surface: "var(--surface)",
+        "surface-light": "var(--surface-light)",
         neon: {
           green: "#00ff88",
           cyan: "#00d4ff",
@@ -22,9 +22,9 @@ const config: Config = {
           pink: "#ec4899",
         },
         text: {
-          primary: "#e4e4e7",
-          secondary: "#a1a1aa",
-          muted: "#71717a",
+          primary: "var(--text-primary)",
+          secondary: "var(--text-secondary)",
+          muted: "var(--text-muted)",
         },
       },
       fontFamily: {
@@ -115,16 +115,16 @@ const config: Config = {
           "text-shadow": "0 0 10px rgba(139, 92, 246, 0.5), 0 0 20px rgba(139, 92, 246, 0.3)",
         },
         ".glass": {
-          background: "rgba(255, 255, 255, 0.03)",
+          background: "var(--glass-bg)",
           "backdrop-filter": "blur(12px)",
           "-webkit-backdrop-filter": "blur(12px)",
-          border: "1px solid rgba(255, 255, 255, 0.08)",
+          border: "1px solid var(--glass-border)",
         },
         ".glass-hover": {
-          background: "rgba(255, 255, 255, 0.06)",
+          background: "var(--glass-hover-bg)",
           "backdrop-filter": "blur(16px)",
           "-webkit-backdrop-filter": "blur(16px)",
-          border: "1px solid rgba(255, 255, 255, 0.12)",
+          border: "1px solid var(--glass-hover-border)",
         },
       });
     }),

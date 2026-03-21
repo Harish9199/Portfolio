@@ -5,12 +5,12 @@ export const SITE_CONFIG = {
     "Portfolio of Harish Shankar Thorath — AI/ML Engineer & Full-Stack Developer specializing in Python, Golang, FastAPI, and intelligent systems.",
   url: "https://harishthorath.dev",
   ogImage: "/images/og-image.png",
-  github: "https://github.com/Harish919901",
+  github: "https://github.com/Harish9199",
   linkedin: "https://www.linkedin.com/in/harish-shankar-thorath-7b776722a",
   email: "thorathharish3@gmail.com",
 } as const;
 
-export const GITHUB_USERNAME = "Harish919901";
+export const GITHUB_USERNAME = "Harish9199";
 
 export const PARTICLE_CONFIG = {
   desktop: { count: 120, connectionDistance: 150 },

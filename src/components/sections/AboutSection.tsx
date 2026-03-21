@@ -61,10 +61,10 @@ export default function AboutSection() {
             <div className="space-y-4 text-text-secondary font-sans leading-relaxed">
               <p>{personalInfo.bio}</p>
               <p>
-                With a strong foundation in computer science (8.58 CGPA) and hands-on experience
-                in AI/ML research, I bridge the gap between theoretical knowledge and practical
-                application. My approach combines analytical thinking with creative problem-solving
-                to deliver solutions that make a real impact.
+                Skilled in integrating LLM frameworks like LangChain and LangGraph to build
+                intelligent workflows and decision systems. Working with real-world projects
+                including traceability systems and AI applications. Passionate about developing
+                secure, scalable, and AI-driven solutions.
               </p>
             </div>
 

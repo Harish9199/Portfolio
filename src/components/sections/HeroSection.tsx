@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import { Download, ArrowDown, ChevronRight } from "lucide-react";
 import NeonButton from "@/components/ui/NeonButton";
 import SocialLink from "@/components/ui/SocialLink";
-import AnimatedCounter from "@/components/ui/AnimatedCounter";
 import TypingEffect from "@/components/ui/TypingEffect";
 import { personalInfo } from "@/data/personal";
 import { heroTextVariants, staggerContainer } from "@/styles/animations";
@@ -114,22 +113,6 @@ export default function HeroSection() {
             >
               Get in Touch
             </NeonButton>
-          </motion.div>
-
-          {/* Stats */}
-          <motion.div
-            variants={heroTextVariants}
-            custom={5}
-            className="grid grid-cols-3 gap-8 max-w-md mb-12"
-          >
-            {personalInfo.stats.map((stat) => (
-              <AnimatedCounter
-                key={stat.label}
-                value={stat.value}
-                suffix={stat.suffix}
-                label={stat.label}
-              />
-            ))}
           </motion.div>
 
           {/* Social links */}

@@ -12,19 +12,12 @@ export interface PersonalInfo {
   avatar?: string;
   resumeUrl: string;
   social: SocialLink[];
-  stats: Stat[];
 }
 
 export interface SocialLink {
   name: string;
   url: string;
   icon: string;
-}
-
-export interface Stat {
-  label: string;
-  value: string;
-  suffix?: string;
 }
 
 export interface Skill {

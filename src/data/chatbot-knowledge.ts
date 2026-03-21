@@ -28,7 +28,7 @@ export const chatPatterns: ChatPattern[] = [
   },
   {
     keywords: ["contact", "email", "reach", "hire", "connect", "message"],
-    response: "You can reach Harish at:\n\nEmail: thorathharish3@gmail.com\nLinkedIn: linkedin.com/in/harish-shankar-thorath-7b776722a\nGitHub: github.com/Harish919901\n\nOr use the contact form in the Contact section below!",
+    response: "You can reach Harish at:\n\nEmail: thorathharish3@gmail.com\nLinkedIn: linkedin.com/in/harish-shankar-thorath-7b776722a\nGitHub: github.com/Harish9199\n\nOr use the contact form in the Contact section below!",
     category: "contact",
   },
   {

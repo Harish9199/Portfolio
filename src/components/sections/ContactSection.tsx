@@ -199,7 +199,7 @@ export default function ContactSection() {
                 <div>
                   <p className="text-xs font-mono text-text-muted">GitHub</p>
                   <a
-                    href="https://github.com/Harish919901"
+                    href="https://github.com/Harish9199"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-sm font-mono text-text-primary hover:text-neon-purple transition-colors"
